@@ -9,16 +9,16 @@
 
 body{
     background-color: whitesmoke;
-    background: url(walpapper.webp);
+    background: url(logo\ awal.png);
     background-size: cover;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: aliceblue;
     margin: 0;
+    width: 100%;
 }
 
 .container{
-    background-color: black;
-    width: 100%;
+    width: 1500px;
     height: 80px;
 
 }
@@ -39,7 +39,6 @@ body{
 }
 
 .a-navbar{
-    background-color: black;
     width: 1550px;
     height: 80px;
 }
@@ -58,12 +57,10 @@ body{
 
 .a-contact img{     
     border-radius: 25%;
-}
-
-.b-contact img{
     width: 125px;
     height: 125px;
 }
+
 
 .a-index img{
     height: 100px;
@@ -77,9 +74,11 @@ body{
 
 
 .a-foto img{
-    border-radius: 100%;
+    border-radius: 50%;
     height: 200px;
     width: 350px;
+    justify-content: right;
+    justify-items: right;
 }
 
 .a-project img{
@@ -87,8 +86,8 @@ body{
    height: 200px; 
 }
 
-.a-project{
-    color: lavender;
+.a-project h1{
+    color: rgba(234, 255, 6, 0.758);
 }
 .a-project a{
     text-decoration: none;
