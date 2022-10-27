@@ -15,6 +15,7 @@ body{
     color: aliceblue;
     margin: 0;
     width: 100%;
+    
 }
 
 .container{
@@ -33,7 +34,6 @@ body{
     list-style-type: none;
     padding: 20px;
     font-size: 25px;
-    float: right;
     justify-content: right;
     justify-items: right;
 }
@@ -54,7 +54,6 @@ body{
     -o-transition-delay: .3s;
     border-radius: 8px;
 }
-
 .a-contact img{     
     border-radius: 25%;
     width: 125px;
@@ -93,3 +92,16 @@ body{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.as-project img{
+    width: 300px;
+    height: 200px; 
+ }
+
+ .as-project h1{
+    color: rgba(234, 255, 6, 0.758); 
+ }
+
+ .as-project a{
+    text-decoration: none;
+ }
