@@ -6,6 +6,8 @@
 
 
 
+@media screen {
+    
 
 body{
     background-color: whitesmoke;
@@ -17,7 +19,7 @@ body{
     width: 100%;
     
 }
-
+}
 .container{
     width: 1500px;
     height: 80px;
